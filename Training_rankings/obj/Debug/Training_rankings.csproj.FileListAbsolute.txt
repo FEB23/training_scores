@@ -1,0 +1,10 @@
+C:\Users\Fabian\source\repos\Training_rankings\bin\Debug\Training_rankings.exe.config
+C:\Users\Fabian\source\repos\Training_rankings\bin\Debug\Training_rankings.exe
+C:\Users\Fabian\source\repos\Training_rankings\bin\Debug\Training_rankings.pdb
+C:\Users\Fabian\source\repos\Training_rankings\obj\Debug\Training_rankings.csprojAssemblyReference.cache
+C:\Users\Fabian\source\repos\Training_rankings\obj\Debug\Training_rankings.Properties.Resources.resources
+C:\Users\Fabian\source\repos\Training_rankings\obj\Debug\Training_rankings.csproj.GenerateResource.cache
+C:\Users\Fabian\source\repos\Training_rankings\obj\Debug\Training_rankings.csproj.CoreCompileInputs.cache
+C:\Users\Fabian\source\repos\Training_rankings\obj\Debug\Training_rankings.exe
+C:\Users\Fabian\source\repos\Training_rankings\obj\Debug\Training_rankings.pdb
+C:\Users\Fabian\source\repos\Training_rankings\obj\Debug\Training_rankings.Form1.resources
