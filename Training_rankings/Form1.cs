@@ -20,7 +20,7 @@ namespace Training_rankings
         private void Form1_Load(object sender, EventArgs e)
         {
             MessageBox.Show("Here you can get your training score!");
-            
+            MessageBox.Show("Enter your Name!");    
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
@@ -59,14 +59,14 @@ namespace Training_rankings
         }
         private void Score_Text()
         {
-            
-                string wins = textBox1.Text;
-                float Wins = float.Parse(wins);
-                string matches = textBox2.Text;
-                float Matches = float.Parse(matches);
-                string defeats = textBox3.Text;
-                float Defeats = float.Parse(defeats);
-            
+            string Name = richTextBox1.Text;
+            string wins = textBox1.Text;
+            float Wins = float.Parse(wins);
+            string matches = textBox2.Text;
+            float Matches = float.Parse(matches);
+            string defeats = textBox3.Text;
+            float Defeats = float.Parse(defeats);
+
             if (Matches != Wins + Defeats)
             {
                 MessageBox.Show("Type your wins losses and matches in again.");
@@ -74,14 +74,24 @@ namespace Training_rankings
             else
             {
                 float Score = ((Wins * 10) - (Defeats * -2)) / Matches;
-                MessageBox.Show("Here is your Score: " + Score.ToString());
+                MessageBox.Show(Name + " Here is your Score: " + Score.ToString());
             }
-                        
+
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             Score_Text();
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void richTextBox1_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

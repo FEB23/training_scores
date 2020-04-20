@@ -8,3 +8,13 @@ C:\Users\Fabian\source\repos\Training_rankings\obj\Debug\Training_rankings.cspro
 C:\Users\Fabian\source\repos\Training_rankings\obj\Debug\Training_rankings.exe
 C:\Users\Fabian\source\repos\Training_rankings\obj\Debug\Training_rankings.pdb
 C:\Users\Fabian\source\repos\Training_rankings\obj\Debug\Training_rankings.Form1.resources
+D:\GIT_Repos\training_scores\Training_rankings\bin\Debug\Training_rankings.exe.config
+D:\GIT_Repos\training_scores\Training_rankings\bin\Debug\Training_rankings.exe
+D:\GIT_Repos\training_scores\Training_rankings\bin\Debug\Training_rankings.pdb
+D:\GIT_Repos\training_scores\Training_rankings\obj\Debug\Training_rankings.csprojAssemblyReference.cache
+D:\GIT_Repos\training_scores\Training_rankings\obj\Debug\Training_rankings.Form1.resources
+D:\GIT_Repos\training_scores\Training_rankings\obj\Debug\Training_rankings.Properties.Resources.resources
+D:\GIT_Repos\training_scores\Training_rankings\obj\Debug\Training_rankings.csproj.GenerateResource.cache
+D:\GIT_Repos\training_scores\Training_rankings\obj\Debug\Training_rankings.csproj.CoreCompileInputs.cache
+D:\GIT_Repos\training_scores\Training_rankings\obj\Debug\Training_rankings.exe
+D:\GIT_Repos\training_scores\Training_rankings\obj\Debug\Training_rankings.pdb
