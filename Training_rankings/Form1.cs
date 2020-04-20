@@ -66,10 +66,17 @@ namespace Training_rankings
                 float Matches = float.Parse(matches);
                 string defeats = textBox3.Text;
                 float Defeats = float.Parse(defeats);
+            
+            if (Matches != Wins + Defeats)
+            {
+                MessageBox.Show("Type your wins losses and matches in again.");
+            }
+            else
+            {
                 float Score = ((Wins * 10) - (Defeats * -2)) / Matches;
                 MessageBox.Show("Here is your Score: " + Score.ToString());
-
-            
+            }
+                        
         }
 
         private void button1_Click(object sender, EventArgs e)

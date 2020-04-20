@@ -60,7 +60,10 @@
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(183, 48);
+            this.textBox2.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox2.ForeColor = System.Drawing.SystemColors.Window;
+            this.textBox2.Location = new System.Drawing.Point(193, 48);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(100, 20);
             this.textBox2.TabIndex = 4;
@@ -69,7 +72,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(201, 32);
+            this.label1.Location = new System.Drawing.Point(220, 32);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(48, 13);
             this.label1.TabIndex = 5;
@@ -106,9 +109,11 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(204, 105);
-            this.button1.Name = "Go!";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button1.ForeColor = System.Drawing.Color.DarkBlue;
+            this.button1.Location = new System.Drawing.Point(193, 89);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(100, 51);
             this.button1.TabIndex = 9;
             this.button1.Text = "GO!";
             this.button1.UseVisualStyleBackColor = true;
@@ -118,7 +123,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.Control;
+            this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.ClientSize = new System.Drawing.Size(475, 193);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label3);
@@ -127,7 +132,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
-            this.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.ForeColor = System.Drawing.Color.White;
             this.Name = "Form1";
             this.Text = "Training_Scores";
             this.Load += new System.EventHandler(this.Form1_Load);
