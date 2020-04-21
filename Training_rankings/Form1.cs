@@ -10,56 +10,22 @@ using System.Windows.Forms;
 
 namespace Training_rankings
 {
+    
     public partial class Form1 : Form
     {
         public Form1()
         {
+            Training_rankings.Communication Komm = new Training_rankings.Communication();
             InitializeComponent();
+            
+            richTextBox2.Text = DateTime.Now.ToString();
+            label8.Text = Komm.FencerName.ToString();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-            MessageBox.Show("Here you can get your training score!");
-            MessageBox.Show("Enter your Name!");    
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-          
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox2_TextChanged(object sender, EventArgs e)
-        {
-     
-        }
-
-        private void textBox3_TextChanged(object sender, EventArgs e)
-        {
-      
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox4_TextChanged(object sender, EventArgs e)
-        {
-     
-        }
         private void Score_Text()
         {
-            string Name = richTextBox1.Text;
+            Training_rankings.Communication Komm = new Training_rankings.Communication();
+            string Name = richTextBox1.Text.ToString();
             string wins = textBox1.Text;
             float Wins = float.Parse(wins);
             string matches = textBox2.Text;
@@ -67,14 +33,17 @@ namespace Training_rankings
             string defeats = textBox3.Text;
             float Defeats = float.Parse(defeats);
 
-            if (Matches != Wins + Defeats)
+            if (Matches != Wins + Defeats )
             {
+
                 MessageBox.Show("Type your wins losses and matches in again.");
             }
             else
             {
                 float Score = ((Wins * 10) - (Defeats * -2)) / Matches;
-                MessageBox.Show(Name + " Here is your Score: " + Score.ToString());
+                textBox4.Text = Score.ToString();
+                MessageBox.Show(Name + " here is your Score: " + Score.ToString());
+                
             }
 
         }
@@ -82,14 +51,35 @@ namespace Training_rankings
         private void button1_Click(object sender, EventArgs e)
         {
             Score_Text();
+            
+        }
+               
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
 
-        private void label4_Click(object sender, EventArgs e)
+        private void richTextBox1_TextChanged(object sender, EventArgs e)
         {
 
         }
 
-        private void richTextBox1_TextChanged(object sender, EventArgs e)
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void richTextBox1_TextChanged_1(object sender, EventArgs e)
         {
 
         }
