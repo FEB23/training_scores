@@ -15,11 +15,13 @@ namespace Training_rankings
     {
         public Form1()
         {
-            Training_rankings.Communication Komm = new Training_rankings.Communication();
+            Training_rankings.StartBox start_BOX= new Training_rankings.StartBox();
+           
             InitializeComponent();
             
             richTextBox2.Text = DateTime.Now.ToString();
-            label8.Text = Komm.FencerName.ToString();
+            string Fencer_Name = start_BOX.fencer_Name;
+            label8.Text = Fencer_Name;
         }
 
         private void Score_Text()
@@ -80,6 +82,16 @@ namespace Training_rankings
         }
 
         private void richTextBox1_TextChanged_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
         {
 
         }

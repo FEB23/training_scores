@@ -8,6 +8,6 @@ namespace Training_rankings
 {
     class Communication 
     {
-        public string FencerName = "";
+       
     }
 }

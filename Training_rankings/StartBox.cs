@@ -12,18 +12,23 @@ namespace Training_rankings
 {
     public partial class StartBox : Form
     {
-        
+        public string fencer_Name;
         public StartBox()
         {
             InitializeComponent();
-        }
+           
+    }
         private void button1_Click(object sender, EventArgs e)
         {
+            Training_rankings.Form1 Main = new Training_rankings.Form1();
             Training_rankings.Communication Komm = new Training_rankings.Communication();
-            Training_rankings.Form1 form1 = new Training_rankings.Form1();
-            
-            form1.Show();
-            
+            fencer_Name = textBox1.Text.ToString();
+            Main.Show();
+    }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

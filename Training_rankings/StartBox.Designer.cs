@@ -39,6 +39,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(197, 20);
             this.textBox1.TabIndex = 0;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label1
             // 
@@ -49,7 +50,6 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "                           Hi!\n This is a program to get your raining score. \n\n E" +
     "nter your Name below and get started!";
-          
             // 
             // button1
             // 
