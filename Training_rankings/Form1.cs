@@ -18,7 +18,7 @@ namespace Training_rankings
             Training_rankings.StartBox start_BOX= new Training_rankings.StartBox();
            
             InitializeComponent();
-            
+
             richTextBox2.Text = DateTime.Now.ToString();
             string Fencer_Name = start_BOX.fencer_Name;
             label8.Text = Fencer_Name;
@@ -92,6 +92,26 @@ namespace Training_rankings
         }
 
         private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label9_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label8_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label8_Click_2(object sender, EventArgs e)
         {
 
         }

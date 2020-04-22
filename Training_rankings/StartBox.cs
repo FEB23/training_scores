@@ -15,6 +15,8 @@ namespace Training_rankings
         public string fencer_Name;
         public StartBox()
         {
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             InitializeComponent();
            
     }
@@ -27,6 +29,11 @@ namespace Training_rankings
     }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void StartBox_Load(object sender, EventArgs e)
         {
 
         }

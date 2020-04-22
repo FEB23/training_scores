@@ -71,6 +71,7 @@
             this.Controls.Add(this.textBox1);
             this.Name = "StartBox";
             this.Text = "StartBox";
+            this.Load += new System.EventHandler(this.StartBox_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
