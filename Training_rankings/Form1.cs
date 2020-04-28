@@ -16,12 +16,10 @@ namespace Training_rankings
         public Form1()
         {
             Training_rankings.StartBox start_BOX= new Training_rankings.StartBox();
-           
+            Training_rankings.Communication Com = new Training_rankings.Communication();
             InitializeComponent();
-
             richTextBox2.Text = DateTime.Now.ToString();
-            string Fencer_Name = start_BOX.fencer_Name;
-            label8.Text = Fencer_Name;
+            richTextBox1.Text = Com.getfencerName;
         }
 
         private void Score_Text()
@@ -29,12 +27,36 @@ namespace Training_rankings
             Training_rankings.Communication Komm = new Training_rankings.Communication();
             string Name = richTextBox1.Text.ToString();
             string wins = textBox1.Text;
-            float Wins = float.Parse(wins);
+            float Wins = 0;
+            if (wins != "")
+            {
+                Wins = float.Parse(wins);
+            }
+            else
+            {
+                Wins = 0;
+            }
+            float Matches = 0;
             string matches = textBox2.Text;
-            float Matches = float.Parse(matches);
+            if (matches != "")
+            {
+                Matches = float.Parse(matches);
+            }
+            else
+            {
+                Matches = 0;
+            }
+                      
             string defeats = textBox3.Text;
-            float Defeats = float.Parse(defeats);
-
+            float Defeats = 0;
+            if (defeats!="")
+            {
+                 Defeats = float.Parse(defeats);
+            }
+            else
+            {
+                Defeats = 0;
+            }
             if (Matches != Wins + Defeats )
             {
 
@@ -61,57 +83,12 @@ namespace Training_rankings
             this.Close();
         }
 
-        private void richTextBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label6_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label7_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label8_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void richTextBox1_TextChanged_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label5_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void Form1_Load(object sender, EventArgs e)
         {
 
         }
 
-        private void label9_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label8_Click_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label8_Click_2(object sender, EventArgs e)
+        private void richTextBox1_TextChanged(object sender, EventArgs e)
         {
 
         }

@@ -45,10 +45,10 @@
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.button3 = new System.Windows.Forms.Button();
-            this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // contextMenuStrip1
@@ -168,7 +168,6 @@
             this.label5.Size = new System.Drawing.Size(60, 13);
             this.label5.TabIndex = 15;
             this.label5.Text = "Version 0.2";
-            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // label6
             // 
@@ -178,17 +177,6 @@
             this.label6.Size = new System.Drawing.Size(93, 13);
             this.label6.TabIndex = 16;
             this.label6.Text = "developed by F3B";
-            this.label6.Click += new System.EventHandler(this.label6_Click);
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(29, 9);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(94, 13);
-            this.label7.TabIndex = 17;
-            this.label7.Text = "Emter your Name: ";
-            this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // richTextBox1
             // 
@@ -197,7 +185,7 @@
             this.richTextBox1.Size = new System.Drawing.Size(122, 29);
             this.richTextBox1.TabIndex = 18;
             this.richTextBox1.Text = "";
-            this.richTextBox1.TextChanged += new System.EventHandler(this.richTextBox1_TextChanged_1);
+            this.richTextBox1.TextChanged += new System.EventHandler(this.richTextBox1_TextChanged);
             // 
             // button3
             // 
@@ -209,17 +197,23 @@
             this.button3.TabIndex = 20;
             this.button3.Text = "Export\nFile";
             this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
-            // label8
+            // label9
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(195, 9);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(80, 13);
-            this.label8.TabIndex = 21;
-            this.label8.Text = "Date and Time:";
-            this.label8.Click += new System.EventHandler(this.label8_Click_2);
+            this.label9.Location = new System.Drawing.Point(170, 9);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(100, 23);
+            this.label9.TabIndex = 21;
+            this.label9.Text = "Date and Time: ";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(29, 9);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(94, 13);
+            this.label7.TabIndex = 17;
+            this.label7.Text = "Emter your Name: ";
             // 
             // Form1
             // 
@@ -227,8 +221,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(440, 230);
-            this.Controls.Add(this.label8);
+            this.ClientSize = new System.Drawing.Size(440, 232);
+            this.Controls.Add(this.label9);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.label7);
@@ -252,7 +246,7 @@
             this.MaximumSize = new System.Drawing.Size(460, 275);
             this.MinimizeBox = false;
             this.MinimumSize = new System.Drawing.Size(460, 275);
-            this.Name = "Main";
+            this.Name = "Form1";
             this.Text = "Training_Scores";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
@@ -276,10 +270,10 @@
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
         private System.Windows.Forms.RichTextBox richTextBox1;
         private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label7;
     }
 }
 

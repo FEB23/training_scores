@@ -8,6 +8,22 @@ namespace Training_rankings
 {
     class Communication 
     {
-       
+        private string fencer_NAME;
+        public string setfencerName
+        {
+            set
+            {
+                 fencer_NAME = value;
+
+            }
+        }
+        public string getfencerName
+        {
+            get
+            {
+                return fencer_NAME;
+            }
+        }
+            
     }
 }
