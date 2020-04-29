@@ -44,32 +44,41 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 26);
+            this.label1.Location = new System.Drawing.Point(12, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(212, 52);
+            this.label1.Size = new System.Drawing.Size(212, 65);
             this.label1.TabIndex = 1;
-            this.label1.Text = "                           Hi!\n This is a program to get your raining score. \n\n E" +
-    "nter your Name below and get started!";
+            this.label1.Text = "                             Hi!\n\n This is a program to get your raining score. \n" +
+    "\n Enter your Name below and get started!";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.button1.ForeColor = System.Drawing.Color.DarkBlue;
             this.button1.Location = new System.Drawing.Point(15, 135);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(197, 69);
             this.button1.TabIndex = 2;
             this.button1.Text = "Let\'s go! ";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.Button1_Click);
             // 
             // StartBox
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(231, 216);
+            this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.ClientSize = new System.Drawing.Size(234, 236);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox1);
+            this.ForeColor = System.Drawing.Color.Cornsilk;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(250, 275);
+            this.MinimizeBox = false;
+            this.MinimumSize = new System.Drawing.Size(250, 275);
             this.Name = "StartBox";
             this.Text = "StartBox";
             this.Load += new System.EventHandler(this.StartBox_Load);

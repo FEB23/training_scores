@@ -16,9 +16,8 @@ namespace Training_rankings
         {
            Application.EnableVisualStyles();
            Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new StartBox());
-
-           
+           Application.Run(new StartBox());
+          
         
         
         }
